@@ -9,7 +9,7 @@
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/audax-mobile.git
+git clone https://github.com/estivenm/audax-mobile.git
 cd audax-mobile
 ```
 
