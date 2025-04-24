@@ -68,10 +68,12 @@ npm run web
 1. Instala **Expo Go** desde la [App Store (iOS)](https://apps.apple.com/app/expo-go/id982107779) o [Google Play (Android)](https://play.google.com/store/apps/details?id=host.exp.exponent).
 2. Abre este enlace desde el navegador de tu dispositivo o escanéalo con la cámara para abrirlo directamente en Expo Go:
 
-🔗 [Abrir App en Expo Go](https://expo.dev/preview/update?message=Add%20Babel%20and%20Jest%20configuration%2C%20and%20%20implement%20tests&updateRuntimeVersion=1.0.0&createdAt=2025-04-23T08%3A07%3A35.290Z&slug=exp&projectId=9c938fb3-2cd4-4372-b564-6cf689e46ab1&group=7664182d-1384-4aa4-9335-608c1b3d1265)
+🔗 [Abrir App en Expo Go](https://expo.dev/preview/update?message=active%20mock&updateRuntimeVersion=1.0.0&createdAt=2025-04-24T07%3A19%3A35.429Z&slug=exp&projectId=9c938fb3-2cd4-4372-b564-6cf689e46ab1&group=06e3110c-6d00-4533-8888-3f6c4b3e896d)
+
 
 > Esta URL abre una vista previa de la aplicación directamente en Expo Go. Ideal para pruebas sin necesidad de emuladores o compilación local.
 
+📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/200f8623-36b0-4524-833d-b799572d015f)
 ---
 
 ## 🧩 Tecnologías Usadas
@@ -125,13 +127,60 @@ npm run web
 
 ## 📜 Scripts Disponibles
 
-| Comando        | Descripción                             |
-|----------------|-----------------------------------------|
-| `npm start`    | Inicia el servidor Expo                 |
-| `npm run ios`  | Ejecuta la app en simulador iOS         |
-| `npm run android` | Ejecuta en emulador Android         |
-| `npm run web`  | Ejecuta en navegador (modo web)         |
-| `npm test`     | Ejecuta las pruebas unitarias           |
+| Comando             | Descripción                                     |
+|---------------------|-------------------------------------------------|
+| `npm start`         | Inicia el servidor Expo                         |
+| `npm run ios`       | Ejecuta la app en simulador iOS                 |
+| `npm run android`   | Ejecuta en emulador Android                     |
+| `npm run web`       | Ejecuta en navegador (modo web)                 |
+| `npm test`          | Ejecuta las pruebas unitarias                   |
+| `npm run build:android` | Genera `.apk` con EAS Build               |
+| `npm run build:ios`     | Genera `.ipa` con EAS Build               |
+| `npm run build:all`     | Genera build para Android e iOS           |
+
+---
+
+## 🏗️ Generar Builds de Producción
+
+Este proyecto utiliza **EAS Build** para generar versiones de producción para Android (`.apk`) e iOS (`.ipa`).
+
+### 🔧 Requisitos Previos
+
+Instala `eas-cli` si aún no lo tienes:
+
+```bash
+npm install -g eas-cli
+```
+
+Inicializa EAS en tu proyecto:
+
+```bash
+eas init
+```
+
+---
+
+### 📲 Android `.apk`
+
+Genera un archivo `.apk` ejecutable directamente en dispositivos Android:
+
+```bash
+npm run build:android
+```
+
+📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/200f8623-36b0-4524-833d-b799572d015f)
+
+---
+
+### 🍏 iOS `.ipa`
+
+Compila un archivo `.ipa` para dispositivos Apple:
+
+```bash
+npm run build:ios
+```
+
+> Requiere macOS y una cuenta de Apple Developer.
 
 ---
 

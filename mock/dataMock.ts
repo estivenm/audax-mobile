@@ -1,0 +1,28 @@
+import { EnergyPrice } from "@/model/response-model";
+
+export const mockDataEnergyprice: EnergyPrice[] = [
+  { label: '00h', value: 78.2 },
+  { label: '01h', value: 76.1 },
+  { label: '02h', value: 72.5 },
+  { label: '03h', value: 70.0 },
+  { label: '04h', value: 68.4 },
+  { label: '05h', value: 67.9 },
+  { label: '06h', value: 74.1 },
+  { label: '07h', value: 91.0 },
+  { label: '08h', value: 103.4 },
+  { label: '09h', value: 110.2 },
+  { label: '10h', value: 107.8 },
+  { label: '11h', value: 105.6 },
+  { label: '12h', value: 108.9 },
+  { label: '13h', value: 104.1 },
+  { label: '14h', value: 99.6 },
+  { label: '15h', value: 101.3 },
+  { label: '16h', value: 106.5 },
+  { label: '17h', value: 114.7 },
+  { label: '18h', value: 120.1 },
+  { label: '19h', value: 122.9 },
+  { label: '20h', value: 119.3 },
+  { label: '21h', value: 113.0 },
+  { label: '22h', value: 104.7 },
+  { label: '23h', value: 93.2 },
+];
