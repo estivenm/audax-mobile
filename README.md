@@ -68,12 +68,12 @@ npm run web
 1. Instala **Expo Go** desde la [App Store (iOS)](https://apps.apple.com/app/expo-go/id982107779) o [Google Play (Android)](https://play.google.com/store/apps/details?id=host.exp.exponent).
 2. Abre este enlace desde el navegador de tu dispositivo o escanéalo con la cámara para abrirlo directamente en Expo Go:
 
-🔗 [Abrir App en Expo Go](https://expo.dev/preview/update?message=active%20mock&updateRuntimeVersion=1.0.0&createdAt=2025-04-24T07%3A19%3A35.429Z&slug=exp&projectId=9c938fb3-2cd4-4372-b564-6cf689e46ab1&group=06e3110c-6d00-4533-8888-3f6c4b3e896d)
+🔗 [Abrir App en Expo Go](https://expo.dev/preview/update?message=Add%20energy%20price%20models%2C%20error%20handling%2C%20and%20enhance%20dashboard%20%20start%20date%2C%20endDate%20and%20update%20readme&updateRuntimeVersion=1.0.0&createdAt=2025-04-24T07%3A55%3A49.838Z&slug=exp&projectId=9c938fb3-2cd4-4372-b564-6cf689e46ab1&group=5d0e7b3f-ef4f-434a-a566-1e9fae475b08)
 
 
 > Esta URL abre una vista previa de la aplicación directamente en Expo Go. Ideal para pruebas sin necesidad de emuladores o compilación local.
 
-📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/200f8623-36b0-4524-833d-b799572d015f)
+📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/16ea552e-1111-40db-9dc6-cd8d840aa074)
 ---
 
 ## 🧩 Tecnologías Usadas
@@ -168,7 +168,7 @@ Genera un archivo `.apk` ejecutable directamente en dispositivos Android:
 npm run build:android
 ```
 
-📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/200f8623-36b0-4524-833d-b799572d015f)
+📱 [APK](https://expo.dev/accounts/estivenmazo/projects/audax-mobile/builds/16ea552e-1111-40db-9dc6-cd8d840aa074)
 
 ---
 
