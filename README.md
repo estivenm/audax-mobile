@@ -184,6 +184,22 @@ npm run build:ios
 
 ---
 
+## Pantallas
+
+### Login
+<img src="./assets/screenshots/login.png" alt="login" width="200" height="350" />
+
+### Welcome
+
+<img src="./assets/screenshots/welcome.png" alt="Welcome"  width="200" height="350"/>
+
+### Dashboard
+<img src="./assets/screenshots/dashboard.png" alt="dashboard"  width="200" height="350"/>
+
+### Menu
+<img src="./assets/screenshots/menu.png" alt="menu"  width="200" height="350"/>
+
+
 ## 📄 Licencia
 
 Este proyecto es **privado** y no está licenciado para distribución pública.
